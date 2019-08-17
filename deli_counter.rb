@@ -1,5 +1,3 @@
-katz_deli = ["Barry", "John", "Steph", "Isaac"]
-name = "Sam the Shark"
 
 
 def line(katz_deli)
@@ -19,14 +17,7 @@ end
 
 def take_a_number (katz_deli, name)
   katz_deli << name
-  # p katz_deli
-  # p katz_deli[0]
-  number = katz_deli[0]
   puts "Welcome, #{name}. You are number #{ katz_deli.length } in line."
-  
-  # puts "These are the people in line #{number} take_a_number"
-  # puts "this is the last person to enter the line: with position in line #{katz_deli[-1]}"
-  # # katz_deli.insert(0, name)
 end 
 
 def now_serving(katz_deli)
